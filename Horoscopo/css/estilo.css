@@ -1,0 +1,47 @@
+button{
+    display: inline-flexbox;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #6c806d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+@media screen and (max-width: 336px) {
+    button{
+        padding: 5px 15px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
+button:hover{
+    background-color: #3e8e41;
+}
+button:active{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.botonesPrincipales{
+    margin: auto;
+    font-size: 20px;
+}
+.botonesSecundarios button{
+    margin-top: 8%;
+    font-size: 15px;
+}
