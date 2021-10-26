@@ -1,0 +1,28 @@
+[
+    {
+        "DNI": "45393530",
+        "Tipo": "NIF",
+        "Nombre": "Daniel",
+        "1Apellido": "Castro",
+        "2Apellido": "Alonso",
+        "Telefono_Fijo": "1234567890",
+        "Movil": "1234567890",
+        "Correo_Electronico": "example@example.com",
+        "Representante": "Alumno\/a",
+        "Provincia": "11",
+        "Municipio": "11015",
+        "Isla": "Mallorca",
+        "Nombre_Via": "avenida escaleritas",
+        "N_Via": "2",
+        "N_Bloque": "2",
+        "N_Escalera": "2",
+        "N_Piso": "2",
+        "N_Portal": "5",
+        "Letra": "A",
+        "Puerta": "2",
+        "Fecha": "1999-12-12",
+        "Huerfano": "Not_exist",
+        "Tutelado_Administracion": "Not_exist",
+        "Alergias_otros": "Not_exist"
+    }
+]

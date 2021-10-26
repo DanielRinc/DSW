@@ -1,0 +1,74 @@
+.contorno{
+    margin: 10%;
+}
+form{
+    padding: 2px;
+    border-style: solid;
+    border-color: steelblue;
+}
+.titulo{
+    text-align: center;
+    color: #01a2e2;
+    font-size: 26px;
+    font-weight: bold;
+}
+.titulos{
+    background-color: #519dc1
+}
+.titulos P{
+    color: whitesmoke;
+    font-weight: bold;
+    margin-left: 1%;
+}
+.representante p{
+    font-weight: bold;
+}
+.datosrepresentante.uno select{
+    width: 10em;
+}
+.datosrepresentante #nºidentificacion{
+    width: 14em;
+}
+.datosrepresentante.uno span input{
+    width: 20em;
+}
+.datosrepresentante span{
+    display: inline-block;
+    margin-right: 2em;
+    max-width: 30em;
+}
+span{
+    display: inline-block;
+    margin-right: 2em;
+    max-width: 30em;
+}
+.datosrepresentante.dos span{
+    width: 23.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.datosrepresentante.dos input{
+    width: 27.5em;
+}
+.datosrepresentante.dos span:nth-child(even){
+    margin-right: 0;
+}
+#nombredevia{
+    width: 27.5em;
+}
+.domicilio.dos input{
+    width: 8em;
+}
+.domicilio.cuatro select{
+    min-width: 10em;
+}
+.consentir:nth-child(even){
+    
+    margin-left: 40%;
+    color: black;
+}
+.consentir:nth-child(odd){
+    
+    margin-left: 10%;
+    color: black;
+}
