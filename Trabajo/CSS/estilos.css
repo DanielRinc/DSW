@@ -1,0 +1,84 @@
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.favori{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contenedor{
+    border: 3px solid rgb(49, 119, 49);
+    width: 95%;
+    position: relative;
+}
+.contornoProducto{
+    display: block;
+    border: 2px solid yellow;
+    max-width: 70%;
+    text-align: center;
+    width: 80%;
+}
+.producto{
+    border: 2px solid black;
+    margin: 5px;
+    display: inline-table;
+    width: 273.422px;
+    height: 399.078px;
+}
+.producto img {
+    width: 100%;
+    max-height: 150px;
+}
+.favoritos {
+    font-size: 3em;
+    color: red;
+    width: 20%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+h3{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+.button{
+    display: inline-block;
+    border-radius: 18px;
+    background-color: rgb(49, 119, 49);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 3px;
+}
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.button:hover span {
+    padding-right: 15px;
+}
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.ocultar {
+    display: none;
+}
+.contenido{
+    display: none;
+}
